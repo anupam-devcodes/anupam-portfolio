@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Node.js logo">
+  <defs>
+    <linearGradient id="nodejs-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3C873A"/>
+      <stop offset="100%" stop-color="#68A063"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="36" fill="#111827"/>
+  <path d="M128 42 58 78v100l70 36 70-36V78L128 42Zm0 24 48 24v64l-48 24-48-24V90l48-24Z" fill="url(#nodejs-bg)"/>
+  <path d="M128 84c18 0 32 10 32 24 0 12-10 22-24 24l-8 2v28h-16v-38c0-8 6-14 14-16l8-1c6-1 10-4 10-8 0-5-5-8-10-8-6 0-10 3-12 8l-14-5c4-10 13-16 26-16Zm-24 82h16v16h-16v-16Z" fill="#F9FAFB"/>
+</svg>

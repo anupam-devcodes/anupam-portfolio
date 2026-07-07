@@ -1,19 +1,26 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+
 const CopyEmailButton = () => {
   const [copied, setCopied] = useState(false);
-  const email = "Your Email Address";
+  const email = "anupamchoubey0722@gmail.com";
 
-  const copyToClipboard = () => {
-    navigator.clipboard.writeText(email);
-    setCopied(true);
+  const copyToClipboard = async () => {
+    try {
+      await navigator.clipboard.writeText(email);
+      setCopied(true);
 
-    setTimeout(() => {
-      setCopied(false);
-    }, 2000);
+      setTimeout(() => {
+        setCopied(false);
+      }, 2000);
+    } catch (error) {
+      console.error("Failed to copy email:", error);
+    }
   };
+
   return (
     <motion.button
+      type="button"
       onClick={copyToClipboard}
       whileHover={{ y: -5 }}
       whileTap={{ scale: 1.05 }}
@@ -29,8 +36,8 @@ const CopyEmailButton = () => {
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.1, ease: "easeInOut" }}
           >
-            <img src="assets/copy-done.svg" className="w-5" alt="copy Icon" />
-            Email has Copied
+            <img src="/assets/copy-done.svg" className="w-5" alt="" />
+            Email Copied
           </motion.p>
         ) : (
           <motion.p
@@ -41,8 +48,8 @@ const CopyEmailButton = () => {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.1 }}
           >
-            <img src="assets/copy.svg" className="w-5" alt="copy icon" />
-            Copy Email Address
+            <img src="/assets/copy.svg" className="w-5" alt="" />
+            Copy Email
           </motion.p>
         )}
       </AnimatePresence>

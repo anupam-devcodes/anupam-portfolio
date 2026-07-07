@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+  <title>Puppeteer</title>
+  <rect width="256" height="256" rx="56" fill="#40B5A4"></rect>
+  <path d="M78 54V202" stroke="#102A2A" stroke-width="18" stroke-linecap="round"></path>
+  <path d="M78 66H141C177 66 199 88 199 120C199 153 177 176 141 176H104" fill="none" stroke="#102A2A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M104 100H139C154 100 164 108 164 121C164 134 154 142 139 142H104V100Z" fill="#FFFFFF" opacity="0.95"></path>
+  <path d="M104 54V35M128 54V35M152 54V35" stroke="#102A2A" stroke-width="8" stroke-linecap="round"></path>
+</svg>

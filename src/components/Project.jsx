@@ -6,11 +6,13 @@ const Project = ({
   description,
   subDescription,
   href,
+  github,
   image,
-  tags,
+  tags = [],
   setPreview,
 }) => {
-  const [isHidden, setIsHidden] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <div
@@ -20,22 +22,29 @@ const Project = ({
       >
         <div>
           <p className="text-2xl">{title}</p>
-          <div className="flex gap-5 mt-2 text-sand">
+
+          <p className="mt-2 text-sand max-w-xl">{description}</p>
+
+          <div className="flex flex-wrap gap-4 mt-3 text-sm text-sand">
             {tags.map((tag) => (
               <span key={tag.id}>{tag.name}</span>
             ))}
           </div>
         </div>
+
         <button
-          onClick={() => setIsHidden(true)}
+          type="button"
+          onClick={() => setIsOpen(true)}
           className="flex items-center gap-1 cursor-pointer hover-animation"
         >
           Read More
-          <img src="assets/arrow-right.svg" className="w-5" />
+          <img src="/assets/arrow-right.svg" className="w-5" alt="Open project" />
         </button>
       </div>
+
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
-      {isHidden && (
+
+      {isOpen && (
         <ProjectDetails
           title={title}
           description={description}
@@ -43,7 +52,8 @@ const Project = ({
           image={image}
           tags={tags}
           href={href}
-          closeModal={() => setIsHidden(false)}
+          github={github}
+          closeModal={() => setIsOpen(false)}
         />
       )}
     </>

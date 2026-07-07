@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Pandas logo">
+  <rect width="256" height="256" rx="36" fill="#111827"/>
+  <rect x="72" y="48" width="40" height="160" rx="12" fill="#1F77B4"/>
+  <rect x="144" y="48" width="40" height="160" rx="12" fill="#1F77B4"/>
+  <rect x="88" y="68" width="8" height="120" fill="#FFFFFF"/>
+  <rect x="160" y="68" width="8" height="120" fill="#FFFFFF"/>
+  <rect x="104" y="88" width="48" height="24" rx="8" fill="#FFCA28"/>
+  <rect x="104" y="132" width="48" height="24" rx="8" fill="#FFCA28"/>
+</svg>

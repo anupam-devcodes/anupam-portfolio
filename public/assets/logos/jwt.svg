@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="JWT logo">
+  <rect width="256" height="256" rx="36" fill="#111827"/>
+  <path d="M128 44 92 72v112l36 28 36-28V72L128 44Zm0 24 20 16v72l-20 16-20-16V84l20-16Zm-8 40h16v32h-16z" fill="#D63AFF"/>
+  <path d="M84 92l-20 20 20 20v-40Zm88 0v40l20-20-20-20Z" fill="#F2C811"/>
+</svg>

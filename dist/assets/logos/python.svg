@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Python logo">
+  <rect width="256" height="256" rx="36" fill="#111827"/>
+  <path d="M108 44h40c24 0 34 12 34 34v28h-24V78c0-8-4-12-12-12h-22c-10 0-16 6-16 16v20h-20V78c0-22 14-34 38-34Zm40 96h24v44c0 22-14 34-38 34h-40c-24 0-34-12-34-34v-28h24v28c0 8 4 12 12 12h22c10 0 16-6 16-16v-20Z" fill="#3776AB"/>
+  <path d="M84 94h56v20H84zM116 142h56v20h-56z" fill="#FFD43B"/>
+</svg>

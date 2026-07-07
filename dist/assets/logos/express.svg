@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Express logo">
+  <rect width="256" height="256" rx="36" fill="#111827"/>
+  <path d="M70 72h116c12 0 22 10 22 22v68c0 12-10 22-22 22H70c-12 0-22-10-22-22V94c0-12 10-22 22-22Zm18 26v44h20v-18h12c14 0 24-10 24-23 0-13-10-23-24-23H88Zm20 18h10c4 0 8 3 8 8s-4 8-8 8h-10v-16Zm44 4h28v16h-28v-16Zm0 24h28v16h-28v-16Z" fill="#F9FAFB"/>
+  <path d="M176 150h20l-4 16h-16l-4-16Z" fill="#68A063"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Email icon">
+  <rect width="256" height="256" rx="36" fill="#111827"/>
+  <path d="M56 84h144a16 16 0 0 1 16 16v56a16 16 0 0 1-16 16H56a16 16 0 0 1-16-16V100a16 16 0 0 1 16-16Zm0 16 72 48 72-48" fill="none" stroke="#F9FAFB" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M56 156v-12l40-28" fill="none" stroke="#60A5FA" stroke-width="16" stroke-linecap="round"/>
+  <path d="M200 156v-12l-40-28" fill="none" stroke="#60A5FA" stroke-width="16" stroke-linecap="round"/>
+</svg>
