@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img">
+  <title>Gemini AI</title>
+  <defs>
+    <linearGradient id="geminiGradient" x1="30" y1="220" x2="226" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4285F4"></stop>
+      <stop offset="0.35" stop-color="#9B72CB"></stop>
+      <stop offset="0.7" stop-color="#D96570"></stop>
+      <stop offset="1" stop-color="#F2A60C"></stop>
+    </linearGradient>
+  </defs>
+  <path fill="url(#geminiGradient)" d="M128 16C139.9 79.4 176.6 116.1 240 128C176.6 139.9 139.9 176.6 128 240C116.1 176.6 79.4 139.9 16 128C79.4 116.1 116.1 79.4 128 16Z"></path>
+  <path fill="#FFFFFF" fill-opacity="0.35" d="M128 55C135.8 96.7 159.3 120.2 201 128C159.3 135.8 135.8 159.3 128 201C120.2 159.3 96.7 135.8 55 128C96.7 120.2 120.2 96.7 128 55Z"></path>
+</svg>
