@@ -1,116 +1,109 @@
-# 🚀 3D Developer Portfolio
+# Anupam Choubey — Portfolio
 
-A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.
+A modern developer portfolio built to showcase my projects, technical experience, resume, and contact information.
 
-![3d Portfolio Screenshot GitHub](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
-
----
-
-## 📚 Table of Contents
-
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Assets](#-assets)
-- [Contact Me](#-contact-me)
-- [Suggestions or Feedback](#-suggestions-or-feedback)
-- [Like This Project?](#-like-this-project)
+This portfolio highlights my work across full-stack development, backend APIs, AI-enabled applications, and data analytics.
 
 ---
 
-## ✨ Features
+## Preview
 
-- 🔥 3D visuals powered by **React Three Fiber** and **Drei**
-- ⚡ Smooth transitions and scroll-based animations using **Framer Motion**
-- 🎨 Clean, responsive UI with **TailwindCSS**
-- 💌 Working contact form using **EmailJS**
-- 🧱 Beautiful UI enhancements with **Aceternity UI** and **Magic UI**
-- 🚀 Lightning-fast development with **Vite**
+![Portfolio Preview](./public/preview.png)
 
 ---
 
-## 🛠 Tech Stack
+## Live Demo
 
-| Tech              | Description                           |
-|-------------------|---------------------------------------|
-| React             | Front-end JavaScript library          |
-| Vite              | Fast bundler and dev environment      |
-| TailwindCSS       | Utility-first CSS framework           |
-| React Three Fiber | 3D rendering with Three.js in React   |
-| Drei              | Helpers and abstractions for R3F      |
-| Framer Motion     | Animation library for React           |
-| EmailJS           | Form handling and email integration   |
-| Aceternity UI     | Custom UI components                  |
-| Magic UI          | Prebuilt UI elements and design extras|
+Coming soon.
+
+<!-- After deployment, I will replace this with my live link:
+[View Portfolio](https://your-portfolio-link.com)
+-->
 
 ---
 
-## 📁 Project Structure
+## About Me
+
+I am Anupam Choubey, a final-year Electronics and Communication Engineering undergraduate at UIET, Panjab University.
+
+I focus on building practical software applications using modern web technologies, backend systems, AI integrations, and data-driven dashboards.
+
+---
+
+## Featured Projects
+
+### FinSentry
+
+AI-powered personal finance intelligence platform.
+
+**Tech Stack:** React, Node.js, Express.js, MongoDB, Gemini AI, Cloudinary, JWT, Zod, Node Cron, Resend
+
+- Built a full-stack finance platform with authentication, transaction management, CSV import, receipt scanning, recurring transactions, and analytics dashboards.
+- Integrated Gemini AI and Cloudinary to extract receipt details such as merchant, date, line items, and expense categories.
+- Implemented protected REST APIs, validation, scheduled monthly reports, email delivery, and backend rate limiting.
+
+**Links:**  
+[GitHub](https://github.com/anupam-devcodes/finsentry) • [Live Demo](https://finsentry-eta.vercel.app)
+
+---
+
+### PrepPilot
+
+AI-powered interview preparation platform.
+
+**Tech Stack:** React, Node.js, Express.js, MongoDB, Google Gemini, JWT, Zod, Puppeteer
+
+- Built a full-stack platform that analyzes resumes against job descriptions.
+- Generated personalized technical and behavioral interview questions using Gemini AI.
+- Implemented authentication, resume parsing, protected routes, and automated PDF resume generation.
+
+**Links:**  
+[GitHub](https://github.com/anupam-devcodes/preppilot)
+
+---
+
+### VendorIQ
+
+Retail vendor performance and profitability analysis project.
+
+**Tech Stack:** Python, SQL, SQLite, Pandas, Power BI
+
+- Built an analytics project to evaluate vendor performance, profitability, inventory efficiency, and purchasing patterns.
+- Created SQL summary tables for structured analysis.
+- Designed a Power BI dashboard with business insights and recommendations.
+
+**Links:**  
+[GitHub](https://github.com/anupam-devcodes/vendoriq-retail-vendor-performance-analysis)
+
+---
+
+## Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS, Vite
+- **Backend:** Node.js, Express.js, REST APIs, JWT
+- **Databases:** MongoDB, MySQL, SQLite
+- **AI & Integrations:** Gemini AI, Cloudinary
+- **Analytics:** Python, SQL, Pandas, Power BI
+- **Tools:** Git, GitHub, Postman
+- **3D & Animation:** Three.js, React Three Fiber, Motion
+
+---
+
+## Portfolio Sections
+
+- Hero section
+- About section
+- Areas of focus
+- Selected projects
+- Technical experience
+- Contact section
+- Resume link
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
 
 ```bash
-├── public/
-│   ├── assets/             # Images, textures, models
-│   ├── models/             # 3D Astronaut model
-│   └── vite.svg
-├── src/
-│   ├── components/         # Reusable components
-│   ├── constants/          # Reusable datas
-│   ├── sections/           # Portfolio sections (Hero, About, etc.)
-│   ├── App.jsx             # Main app file
-│   ├── index.css           # Tailwind css
-│   └── main.jsx            # Entry point
-├── tailwind.config.js
-└── vite.config.js
-```
-
----
-
-## 🚀 Getting Started
-1. Clone the Repository
-```bash
-git clone https://github.com/Ali-Sanati/Portfolio.git
-cd Portfolio
-```
-2. Install Dependencies
-```bash
-npm install
-```
-3. Run the Development Server
-```bash
-npm run dev
-```
-The app will be available at http://localhost:5173.
-
----
-
-## 🔗 Assets
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
-
----
-
-## 📬 Contact Me
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/ali.sanatidev/reels/) 
-[![Static Badge](https://img.shields.io/badge/Youtube-%23FF0033?style=flat&logo=youtube)](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-sanati/) 
-
----
-
-## 💡 Suggestions or Feedback?
-Leave a comment on the [YouTube video](https://youtu.be/S9UQItTpwUQ) or open an issue here on GitHub.<br/>
-👉 What should I build next?
-
-- A beautiful Landing Page
-
-- A complete E-commerce site
-
-- A fun App Clone (YouTube, Netflix, etc.)
-
-Or another interactive Portfolio
-
-Let me know!
-
----
-
-## ⭐ Like This Project?
-Star the repo and [subscribe](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA??sub_confirmation=1) to the YouTube channel for more dev content!
+git clone https://github.com/anupam-devcodes/anupam-portfolio.git
