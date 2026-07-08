@@ -14,8 +14,6 @@ This portfolio highlights my work across full-stack development, backend APIs, A
 
 ## Live Demo
 
-Coming soon.
-
 [View Portfolio](anupam-portfolio-chi.vercel.app)
 -->
 
