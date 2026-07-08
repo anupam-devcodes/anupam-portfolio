@@ -150,6 +150,15 @@ export const mySocials = [
 
 export const experiences = [
   {
+  title: "Frontend Developer Intern",
+  job: "Ricoz Solutions Pvt. Ltd.",
+  date: "June 2025 – July 2025",
+  contents: [
+    "Developed and enhanced the Blog section of the company's website using React.js, Tailwind CSS, and shadcn/ui.",
+    "Built responsive and reusable UI components while integrating REST APIs to render dynamic blog content and resolve UI-related issues.",
+  ],
+ },
+  {
     title: "Team Captain",
     job: "ZS Campus Beats GenAI Challenge",
     date: "GenAI Challenge",
